@@ -1,3 +1,8 @@
+/*
+*
+*@author Sourabh Jain
+*/
+
 describe('Protractor Demo', function() {
 it('to check the WFH flow', function() {
 browser.ignoreSynchronization = true;
@@ -28,7 +33,7 @@ authReq.click();
 
 var YesBtn=element(by.css('input#idSIButton9'));
 YesBtn.click();
-
+//hello
 var employeeSelfService=element(by.css('span#DefaultDashboard_2_HcmEmployeeSelfServiceWorkspace_text'));
 employeeSelfService.click();
 
